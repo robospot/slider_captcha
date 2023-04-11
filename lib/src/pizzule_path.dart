@@ -58,15 +58,6 @@ Path getPiecePathCustom(
   path.lineTo(offsetX + sizePart, offsetY);
 
   // right bump
-  path.lineTo(offsetX + sizePart, offsetY + sizePart / 3);
-
-  path.cubicTo(
-      offsetX + sizePart + bumpSize,
-      offsetY + sizePart / 6,
-      offsetX + sizePart + bumpSize,
-      offsetY + sizePart / 6 * 5,
-      offsetX + sizePart,
-      offsetY + sizePart / 3 * 2);
 
   path.lineTo(offsetX + sizePart, offsetY + sizePart);
 
